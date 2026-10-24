@@ -178,4 +178,4 @@ Potential future enhancements include transaction-details tool calling, multi-to
 
 ## System Architectural Daigram
 
-![AI-Powered Financial Transaction Risk Analysis System](architecture.png)
+![AI-Powered Financial Transaction Risk Analysis System](AI-Powered Financial Risk Analysis Architecture.png)
