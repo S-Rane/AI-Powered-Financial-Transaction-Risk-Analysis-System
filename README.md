@@ -175,3 +175,7 @@ The LLM can request the exposed tool when it determines that policy evidence is 
 The current implementation includes asynchronous transaction analysis, rule-based risk scoring, policy retrieval through RAG, persisted AI-generated explanations, and a policy-search tool exposed to the LLM.
 
 Potential future enhancements include transaction-details tool calling, multi-tool workflows, persistent vector storage, improved failure handling, and stronger controls around retries and duplicate event processing.
+
+## System Architectural Daigram
+
+![AI-Powered Financial Transaction Risk Analysis System](architecture.png)
