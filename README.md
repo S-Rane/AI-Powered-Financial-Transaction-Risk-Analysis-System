@@ -177,4 +177,4 @@ The current implementation includes asynchronous transaction analysis, rule-base
 Potential future enhancements include transaction-details tool calling, multi-tool workflows, persistent vector storage, improved failure handling, and stronger controls around retries and duplicate event processing.
 
 ## System Architectural Daigram
-AI-Powered Financial Risk Analysis Architecture.png
+![AI-Powered Financial Transaction Risk Analysis System](architecture.png)
