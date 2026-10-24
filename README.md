@@ -1,7 +1,6 @@
 # AI-Powered Financial Transaction Risk Analysis System
 
-An event-driven financial transaction application built with **Java, Spring Boot, Apache Kafka, Spring AI, and Ollama**. The system combines asynchronous transaction processing, 
-rule-based risk assessment, Retrieval-Augmented Generation (RAG), and LLM tool calling to provide contextual, policy-informed transaction risk explanations.
+An event-driven financial transaction application built with **Java, Spring Boot, Apache Kafka, Spring AI, and Ollama**. The system combines asynchronous transaction processing, rule-based risk assessment, Retrieval-Augmented Generation (RAG), and LLM tool calling to provide contextual, policy-informed transaction risk explanations.
 
 ## Architecture Overview
 
@@ -12,6 +11,7 @@ The application has two primary flows:
 
 ### High-Level Architecture
 
+```mermaid
 flowchart TB
     Client["Client / Postman"]
     API["Spring Boot REST API"]
@@ -67,6 +67,7 @@ flowchart TB
 
 The system uses Retrieval-Augmented Generation to ground AI-generated explanations in the application's transaction risk policies.
 
+```mermaid
 flowchart LR
     Policy["Risk Policy Document"]
     Ingestion["PolicyIngestionService"]
@@ -94,6 +95,8 @@ flowchart LR
 - **Vector store:** Spring AI's `SimpleVectorStore` stores and retrieves policy embeddings in memory.
 - **PolicyRetrievalService:** Performs similarity searches and returns up to three relevant policy documents.
 - **LLM:** Uses the retrieved policy context to produce a contextual risk explanation.
+
+> **Note:** The current vector store is in-memory. Policy ingestion and vector data may need to be recreated when the application restarts, depending on the configured initialization lifecycle.
 
 ### LLM Tool-Calling Flow
 
