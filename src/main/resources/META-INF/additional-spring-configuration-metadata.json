@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "spring.ai.google.genai.chat.model",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.google.genai.chat.model'"
+  },
+  {
+    "name": "spring.ai.google.genai.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.google.genai.api-key'"
+  },
+  {
+    "name": "spring.ai.ollama.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.ollama.api-key'"
+  },
+  {
+    "name": "spring.ai.ollama.chat.max-tokens",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.ollama.chat.max-tokens'"
+  },
+  {
+    "name": "spring.ai.ollama.chat.options.response-format.type",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.ollama.chat.options.response-format.type'"
+  },
+  {
+    "name": "spring.ai.ollama.chat.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.ai.ollama.chat.enabled'"
+  },
+  {
+    "name": "spring.kafka.bootstrap-servers",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.bootstrap-servers'"
+  },
+  {
+    "name": "spring.kafka.producer.value-serializer",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.producer.value-serializer'"
+  },
+  {
+    "name": "spring.kafka.producer.bootstrap-servers",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.producer.bootstrap-servers'"
+  }
+]}

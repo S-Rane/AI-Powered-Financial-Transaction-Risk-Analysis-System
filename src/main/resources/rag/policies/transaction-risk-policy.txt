@@ -1,0 +1,34 @@
+TITLE: High-Value Transaction Review Policy
+
+PURPOSE:
+Identify high-value transactions that may require additional review.
+
+RULES:
+1. Transactions exceeding INR 100000 should be flagged for additional risk assessment.
+2. A high transaction amount alone does not prove fraudulent activity.
+3. The risk engine must consider other available transaction attributes before assigning the final risk level.
+4. Transactions identified as potentially suspicious may require manual review.
+
+POLICY ID: TRP-002
+TITLE: Unusual Transaction Location Policy
+
+PURPOSE:
+Identify transactions that may require additional location-based risk assessment.
+
+RULES:
+1. A transaction originating from an unusual location may require additional verification.
+2. Location alone must not be treated as proof of fraud.
+3. Consider transaction amount, transaction type, and other available signals alongside location.
+4. If supporting information is insufficient, recommend further verification rather than asserting fraud.
+
+POLICY ID: TRP-003
+TITLE: Online Purchase Risk Policy
+
+PURPOSE:
+Provide guidance for assessing online purchase transactions.
+
+RULES:
+1. Online purchases should be assessed using the available transaction risk signals.
+2. High-value online purchases may require additional assessment.
+3. Do not classify a transaction as fraudulent solely because it is an online purchase.
+4. Explain the specific risk indicators that support a recommendation.
