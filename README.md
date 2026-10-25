@@ -160,8 +160,6 @@ The LLM can request the exposed tool when it determines that policy evidence is 
 | `GET /api/v1/transactions/{id}/ai-analysis` | Retrieve the persisted AI risk analysis |
 | `GET /api/ai/tools/policy-search?question={question}` | Ask a policy question using LLM tool calling |
 
-*Confirm the transaction endpoints against your current controller mappings before publishing this table.*
-
 ## Design Principles
 
 - **Asynchronous processing:** Kafka decouples transaction submission from downstream AI analysis.
