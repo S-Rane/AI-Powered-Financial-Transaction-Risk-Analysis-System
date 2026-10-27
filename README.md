@@ -174,6 +174,6 @@ The current implementation includes asynchronous transaction analysis, rule-base
 
 Potential future enhancements include transaction-details tool calling, multi-tool workflows, persistent vector storage, improved failure handling, and stronger controls around retries and duplicate event processing.
 
-## System Architectural Daigram
+## System Architectural Diagram
 ![AI-Powered Financial Transaction Risk Analysis System](https://github.com/S-Rane/AI-Powered-Financial-Transaction-Risk-Analysis-System/blob/691bef995e9016d37b6df8653a592ec511930e86/AI-Powered%20Financial%20Risk%20Analysis%20Architecture.png)
 
